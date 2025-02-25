@@ -1,10 +1,8 @@
-# 10th Klagenfurt Game Jam
-Home page of the 10th Klagenfurt Game Jam, from June 2 - 4, 2023.
+# Klagenfurt Game Jam Tech Edition
+Home page of the Klagenfurt Game Jam Tech Edition, from April 11-13, 2025.
 
 Access the web page on 
 
-* https://klujam.at
-* https://game-jam-klagenfurt.github.io/klujam23/
-* https://itec.aau.at/gamejam
+* https://gamejam.aau.at/
 
-Itch.io page is https://itch.io/jam/10th-klujam
+Itch.io page is _tbd_
