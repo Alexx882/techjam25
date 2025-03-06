@@ -27,24 +27,7 @@
     <link rel="stylesheet" href="css/style.css">
 
 
-    <script>
-        const gamejamName = "Klagenfurt Game Jam, Tech Edition"
-        const gamejamNameAndDate = gamejamName + ", April 11-13, 2025"
-        const registrationFormURL = "http://example.com"
-        const itchIoUrl = "https://itch.io/jam/xxx"
-        const discordUrl = "https://discord.gg/4BWEHGm4nN"
-        const previousJamsUrl = "https://www.itec.aau.at/gamejam/"
-
-        document.addEventListener("DOMContentLoaded", function () {
-            document.querySelectorAll('.placeholder-jam-title').forEach(el => el.textContent = gamejamName);
-            document.querySelectorAll('.placeholder-carousel-jam-title').forEach(el => el.textContent = gamejamName);
-            document.querySelectorAll('.placeholder-jam-title-date').forEach(el => el.textContent = gamejamNameAndDate);
-            document.querySelectorAll('.placeholder-registration-form-url').forEach(el => el.href = registrationFormURL);
-            document.querySelectorAll('.placeholder-itch-io-url').forEach(el => el.href = itchIoUrl);
-            document.querySelectorAll('.placeholder-discord-url').forEach(el => el.href = discordUrl);
-            document.querySelectorAll('.placeholder-previous-jams-url').forEach(el => el.href = previousJamsUrl);
-        });
-    </script>
+    <script src="jam-specific-content.js"></script>
 
 
 </head>
@@ -461,10 +444,14 @@
 
             <!-- FOOTER -->
             <footer class="row">
-                <p>Supported by the <a href="http://technik.aau.at/en/">Faculty for Technical Sciences</a> at the
+
+                <div class="col-md-12 d-flex justify-content-center">
+                <p class="text-center">Supported by the <a href="http://technik.aau.at/en/">Faculty for Technical Sciences</a> at the
                     <a href="http://www.aau.at">University of Klagenfurt</a>, Austria.
                 </p>
+            </div>
 
+            <div class="container">
                 <p class="pull-xs-right small">Visuals:<br>(CC) BY SA Daniela Meinhardt, Mathias Lux
                     &middot; Photos (CC) BY Mathias Lux</p>
                 <!--<p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>-->
@@ -476,6 +463,8 @@
                     <br>
 
                 </p>
+            </div>
+
             </footer>
 
 
