@@ -1,7 +1,7 @@
 const gamejamName = "Klagenfurt Game Jam, Tech Edition"
 const gamejamNameAndDate = gamejamName + ", April 11-13, 2025"
-const registrationFormURL = "http://example.com"
-const itchIoUrl = "https://itch.io/jam/xxx"
+const registrationFormURL = "./404.html"
+const itchIoUrl = "./404.html"
 const discordUrl = "https://discord.gg/4BWEHGm4nN"
 const previousJamsUrl = "https://www.itec.aau.at/gamejam/"
 
