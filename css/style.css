@@ -275,7 +275,7 @@ i.bronze {
   width: 250px; /* Fixed width */
   height: 125px; /* Fixed height */
   border: 1px solid grey; /* Black border */
-  display: flex;
+  display: flex !important;
   align-items: center; /* Center vertically */
   justify-content: center; /* Center horizontally */
   background-color: white; /* Ensure visibility */
