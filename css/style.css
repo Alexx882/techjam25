@@ -271,7 +271,7 @@ i.bronze {
 }
 
 
-html body .sponsor-box {
+html body .sponsor-logo-box {
   width: 250px; /* Fixed width */
   height: 125px; /* Fixed height */
   border: 1px solid grey; /* Black border */
@@ -283,7 +283,7 @@ html body .sponsor-box {
   text-align: center; /* Fallback for centering */
 }
 
-.sponsor-box img {
+.sponsor-logo-box img {
   height: 100px; /* Fixed image height */
   width: auto; /* Maintain aspect ratio */
   max-width: 100%; /* Prevents overflow */
