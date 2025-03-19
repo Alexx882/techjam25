@@ -241,10 +241,6 @@ a:hover {
   }
 }
 
-.sponsors DIV {
-  padding-top:20px;
-}
-
 .topentries td {
   border: #79c04f;
   font-size: 20pt;
@@ -272,4 +268,25 @@ i.bronze {
 
 .gold-sponsor img {
   box-shadow: 0 0 10px goldenrod;
+}
+
+
+.sponsor-box {
+  width: 250px; /* Fixed width */
+  height: 125px; /* Fixed height */
+  border: 1px solid grey; /* Black border */
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  background-color: white; /* Ensure visibility */
+  overflow: hidden; /* Prevents oversized images */
+  text-align: center; /* Fallback for centering */
+}
+
+.sponsor-box img {
+  height: 100px; /* Fixed image height */
+  width: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Prevents overflow */
+  object-fit: contain; /* Ensures full logo is visible */
+  display: block; /* Prevents extra space below image */
 }
