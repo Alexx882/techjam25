@@ -271,7 +271,7 @@ i.bronze {
 }
 
 
-.sponsor-box {
+html body .sponsor-box {
   width: 250px; /* Fixed width */
   height: 125px; /* Fixed height */
   border: 1px solid grey; /* Black border */
