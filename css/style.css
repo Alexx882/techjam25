@@ -290,3 +290,16 @@ html body .sponsor-logo-box {
   object-fit: contain; /* Ensures full logo is visible */
   display: block; /* Prevents extra space below image */
 }
+
+
+/* column size to content except the last with comments */
+.program-table tbody {
+    white-space: nowrap
+}
+.program-table tr td:last-child {
+    white-space: wrap;
+}
+.program-table tbody .room-info {
+    font-style: italic;
+    color: darkgray;
+}
