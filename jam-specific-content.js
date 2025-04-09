@@ -11,7 +11,7 @@ const fridayDateShort = "Fr, 11.04."
 const saturdayDateShort = "Sa, 12.04."
 const sundayDateShort = "Sun, 13.04."
 const lectureHallName = "HS 3"
-const seminarRoomsName = "N.1.43 and N.1.44"
+const seminarRoomsName = "seminar rooms" //"N.1.43 and N.1.44"
 
 
 document.addEventListener("DOMContentLoaded", function () {
