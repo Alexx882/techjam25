@@ -1,17 +1,20 @@
-const gamejamName = "Klagenfurt Game Jam, Tech Edition"
-const gamejamNameAndDate = gamejamName + ", April 11-13, 2025"
+const gamejamName = "Klagenfurt Game Jam, 2nd Tech Edition"
+const gamejamNameAndDate = gamejamName + ", November 28-30, 2025"
 
-const registrationFormURL = "https://forms.gle/EnbDaZPMGjjsnS3N9"
-const itchIoUrl = "https://itch.io/jam/klagenfurt-game-jam-tech-edition"
+const registrationFormURL = "./404.html"
+const itchIoUrl = "./404.html"
 const discordUrl = "https://discord.gg/4BWEHGm4nN"
 const previousJamsUrl = "https://www.itec.aau.at/gamejam/"
 
 // details for the program
-const fridayDateShort = "Fr, 11.04."
-const saturdayDateShort = "Sa, 12.04."
-const sundayDateShort = "Sun, 13.04."
-const lectureHallName = "HS 3"
-const seminarRoomsName = "jam rooms" 
+const showJamProgramDetails = false;
+
+const fridayDateShort = "Fr, 28.11."
+const saturdayDateShort = "Sa, 29.11."
+const sundayDateShort = "Sun, 30.11."
+const lectureHallName = "tba"
+const seminarRoomsName = "tba" 
+
 
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -29,4 +32,6 @@ document.addEventListener("DOMContentLoaded", function () {
     document.querySelectorAll('.placeholder-jam-date-sunday').forEach(el => el.textContent = sundayDateShort);
     document.querySelectorAll('.placeholder-lecture-hall-name').forEach(el => el.textContent = lectureHallName);
     document.querySelectorAll('.placeholder-seminar-rooms-name').forEach(el => el.textContent = seminarRoomsName);
+
+    document.querySelectorAll('.program-table').forEach(el => { el.style.display = showJamProgramDetails ? 'table' : 'none'; });
 });
